@@ -6,5 +6,7 @@ export async function createAssistant(client:OpenAI): Promise<Assistant> {
     return await client.beta.assistants.create({
         model:"gpt-4o-mini",
         name:"Alt Cunningham",
+        instructions:``,
+        tools:[]
     })
 }
