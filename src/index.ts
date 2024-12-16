@@ -1,4 +1,5 @@
 import OpenAI from "openai"
+import "dotenv/config"
 import { createAssistant } from "./openai/createAssistant";
 import { createThread } from "./openai/createThread";
 import { createRun } from "./openai/createRun";
